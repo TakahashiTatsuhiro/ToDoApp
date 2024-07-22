@@ -1,5 +1,5 @@
 import {TodoResponse} from "./model/TodoResponse.ts";
-import {DefaultTodoRepository, TodoRepository} from "./repository/TodoRepository.tsx";
+import {DefaultTodoRepository, TodoRepository} from "./repository/TodoRepository.ts";
 import {useEffect, useState} from "react";
 
 interface Props {

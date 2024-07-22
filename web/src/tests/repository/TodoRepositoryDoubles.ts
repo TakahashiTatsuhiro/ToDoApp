@@ -1,5 +1,5 @@
 import {TodoResponse} from "../../model/TodoResponse.ts";
-import {TodoRepository} from "../../repository/TodoRepository.tsx";
+import {TodoRepository} from "../../repository/TodoRepository.ts";
 
 export class DummyTodoRepository implements TodoRepository {
   getTodos(): Promise<TodoResponse[]> {

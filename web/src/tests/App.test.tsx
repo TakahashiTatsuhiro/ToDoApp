@@ -1,8 +1,8 @@
 import {describe, expect, test} from "vitest";
 import {act, render, screen} from "@testing-library/react";
 import App from "../App.tsx";
-import {TodoRepository} from "../repository/TodoRepository.tsx";
-import {DummyTodoRepository, SpyTodoRepository, StubTodoRepository} from "./repository/TodoRepositoryDoubles.tsx";
+import {TodoRepository} from "../repository/TodoRepository.ts";
+import {DummyTodoRepository, SpyTodoRepository, StubTodoRepository} from "./repository/TodoRepositoryDoubles.ts";
 
 
 describe('App', () => {
